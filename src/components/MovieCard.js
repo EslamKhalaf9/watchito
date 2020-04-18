@@ -9,7 +9,7 @@ function MovieCard({ movie, addFilm }) {
         data.watched = false;
         data.favorite = false;
         addFilm(data);
-        navigate(`/movie/${id}`);
+        navigate(`/watchito/movie/${id}`);
       });
     console.log(id);
   };

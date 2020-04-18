@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Tag from '../components/Tag';
 import { MdFormatQuote } from 'react-icons/md';
 

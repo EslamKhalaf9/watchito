@@ -43,16 +43,20 @@ function App() {
       <Header />
       <div className="container mx-auto px-4">
         <Router>
-          <Home path="/" />
+          <Home path="/watchito" />
           <Watched
-            path="/watched"
+            path="/watchito/watched"
             movies={movies}
             toggleFavorite={toggleFavorite}
             toggleWatch={toggleWatch}
           />
-          <ToWatch path="/towatch" movies={movies} toggleWatch={toggleWatch} />
-          <Movie path="/movie/:movieId" movies={movies} film={film} />
-          <Search path="/search" movies={movies} addFilm={addFilm} />
+          <ToWatch
+            path="/watchito/towatch"
+            movies={movies}
+            toggleWatch={toggleWatch}
+          />
+          <Movie path="/watchito/movie/:movieId" movies={movies} film={film} />
+          <Search path="/watchito/search" movies={movies} addFilm={addFilm} />
         </Router>
       </div>
     </div>
