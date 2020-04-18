@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/watchito/precache-manifest.ee0299e383f781f6ec8b893ebe1d1975.js"
+  "/watchito/precache-manifest.0c63b59e29f740922afb60da456293c4.js"
 );
 
 self.addEventListener('message', (event) => {
