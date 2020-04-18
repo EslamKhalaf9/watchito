@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/watchito/static/css/main.45b3f7c9.chunk.css",
+    "main.js": "/watchito/static/js/main.7b9f5761.chunk.js",
+    "main.js.map": "/watchito/static/js/main.7b9f5761.chunk.js.map",
+    "runtime-main.js": "/watchito/static/js/runtime-main.b2d05708.js",
+    "runtime-main.js.map": "/watchito/static/js/runtime-main.b2d05708.js.map",
+    "static/js/2.731d3c7b.chunk.js": "/watchito/static/js/2.731d3c7b.chunk.js",
+    "static/js/2.731d3c7b.chunk.js.map": "/watchito/static/js/2.731d3c7b.chunk.js.map",
+    "index.html": "/watchito/index.html",
+    "precache-manifest.ee0299e383f781f6ec8b893ebe1d1975.js": "/watchito/precache-manifest.ee0299e383f781f6ec8b893ebe1d1975.js",
+    "service-worker.js": "/watchito/service-worker.js",
+    "static/css/main.45b3f7c9.chunk.css.map": "/watchito/static/css/main.45b3f7c9.chunk.css.map",
+    "static/js/2.731d3c7b.chunk.js.LICENSE.txt": "/watchito/static/js/2.731d3c7b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2d05708.js",
+    "static/js/2.731d3c7b.chunk.js",
+    "static/css/main.45b3f7c9.chunk.css",
+    "static/js/main.7b9f5761.chunk.js"
+  ]
+}
