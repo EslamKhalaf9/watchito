@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MdSearch } from 'react-icons/md';
 import MovieCard from '../components/MovieCard';
 
-const API_PATH = 'http://www.omdbapi.com/';
+const API_PATH = 'https://www.omdbapi.com/';
 const API_KEY = '4f078e44';
 
 function Search({ addFilm }) {

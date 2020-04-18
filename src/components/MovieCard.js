@@ -3,7 +3,7 @@ import { navigate } from '@reach/router';
 
 function MovieCard({ movie, addFilm }) {
   const handleClick = (id) => {
-    fetch(`http://www.omdbapi.com/?i=${id}&apikey=4f078e44`)
+    fetch(`https://www.omdbapi.com/?i=${id}&apikey=4f078e44`)
       .then((res) => res.json())
       .then((data) => {
         data.watched = false;
